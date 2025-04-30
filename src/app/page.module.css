@@ -1,49 +1,72 @@
 .page{
 display: flex;
 position: relative;
+color: white;
 }
 .header{
   position: fixed;
+  z-index: 999;
   background-color: black;
   width: 100vw;
-  height: 10vw;
+  height: auto;
 }
 .header p{
-  line-height: 10vw;
+  line-height: auto;
   text-align: center;
   font-size: 9vw;
-  color: white;
 }
 .main{
 
 }
 .main .info{
-  background-color: rgb(0, 136, 255);
+  background-image: url(/infoImg.jpg);
+  background-size: cover;
   width: 100vw;
   height: 100vh;
-  margin: auto;
-  padding: 16vw 12vw 12vw 12vw;
-  word-break: break-all;
+  padding-top: 30vh;
+  text-align: left;
+  font-size: 14vw;
+  font-family: ‘Trocchi’, serif;
+  font-weight: bolder;
+}
+.main .info .text{
+  position: relative;
+  width: 100vw;
+  left: 0;
+  padding-left: 5vw;
+  backdrop-filter: blur(2px);
 }
 .main .shapes{
+  position: relative;
   width: 100vw;
+  height: max-content;
+  margin-left: 11%;
+  margin-bottom: 4vh;
+  margin-top: 4vh;
 }
 .main .shapes .square{
   width: 45vw;
   height: 45vw;
-  background-color: rgb(0, 238, 238);
+  background-image: url(/square.jpg);
+  background-size: cover;
+  transform: rotate(-15deg);
 }
-.main .shapes .triangle{
-  width: 0;
-  height: 0;
-  border-left: 22.5vw solid transparent;
-  border-right: 22.5vw solid transparent;
-  border-bottom: 45vw solid #4f98f1;
-}
-.main .shapes .circle{
+.main .shapes .rhomb{
   width: 45vw;
   height: 45vw;
-  background-color: rgb(0, 238, 238);
+  margin-top: 10vw;
+  margin-left: 5vw;
+  transform: rotate(20deg);
+  background-image: url(/rhomb.jpg);
+  background-size: cover;
+}
+.main .shapes .circle{
+  margin-top: 5vw;
+  margin-left: 19vw;
+  width: 60vw;
+  height: 60vw;
+  background-image: url(/circle.jpg);
+  background-size: cover;
   border-radius: 50%;
 }
 .main .whyarm{
@@ -59,7 +82,7 @@ position: relative;
   margin-left: 10vw;
 }
 .footer{
-background-color: #eb1818;
+background-color: #3a3939;
 height: 100vh;
 width: 100vw;
 bottom: 0;

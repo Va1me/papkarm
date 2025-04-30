@@ -7,11 +7,17 @@ export default function Home() {
         <p>#Папкарм</p>
       </header>
       <main className={styles.main}>
-        <div className={styles.info}>ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff</div>
+        <div className={styles.info}>
+        <div className={styles.text}>
+        <p>Занимайся</p>
+        <p>армреслингом</p>
+        <p>вместе с нами!</p>
+        </div>
+        </div>
         <div className={styles.shapes}>
           <div className={styles.square}></div>
-          <div className={styles.triangle}></div>
           <div className={styles.circle}></div>
+          <div className={styles.rhomb}></div>
         </div>
         <div className={styles.whyarm}>Почему армреслинг?</div>
         <ul>
