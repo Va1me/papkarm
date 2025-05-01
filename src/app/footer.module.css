@@ -1,0 +1,84 @@
+.page {
+  display: flexbox;
+  position: relative;
+  color: black;
+}
+.main .shapes {
+  position: relative;
+  width: 100vw;
+  height: max-content;
+  margin-left: 11%;
+  margin-bottom: 15vh;
+  margin-top: 15vh;
+}
+
+.main .shapes .square {
+  width: 45vw;
+  height: 45vw;
+  background-image: url(/square.jpg);
+  background-size: cover;
+  transform: rotate(-15deg);
+}
+
+.main .shapes .rhomb {
+  width: 45vw;
+  height: 45vw;
+  margin-top: 10vw;
+  margin-left: 5vw;
+  transform: rotate(20deg);
+  background-image: url(/rhomb.jpg);
+  background-size: cover;
+}
+
+.main .shapes .circle {
+  margin-top: 5vw;
+  margin-left: 19vw;
+  width: 60vw;
+  height: 60vw;
+  background-image: url(/circle.jpg);
+  background-size: cover;
+  border-radius: 50%;
+}
+
+.main .whyarm h1 {
+  font-size: 9vw;
+  margin-bottom: 3vh;
+}
+
+.main .whyarm ul {
+  font-size: 6vw;
+}
+
+.main .whyarm ul li h1 {
+  font-size: 5vw;
+}
+
+.main ul {
+  margin-left: 10vw;
+}
+
+.footer {
+  padding-bottom: 6vh;
+  margin-top: 25vw;
+  width: 100vw;
+  bottom: 0;
+  text-align: center;
+}
+
+.footer hr {
+  margin-bottom: 3vh;
+  color: red;
+  height: 1vh;
+  border: 0;
+  background-color: black;
+}
+
+.footer img {
+  border: 2vw solid black;
+  border-radius: 50%;
+  width: 50vw;
+}
+
+.footer .copyright {
+  margin-top: 12vh;
+}

@@ -1,48 +1,19 @@
 import styles from "./page.module.css";
+import info from "./infoEl.js"
+import header from "./headerEl.js"
+import whyarm from "./whyarmEl.js"
+import footer from "./footerEl.js"
+import shapes from "./shapesEl.js"
 
 export default function Home() {
   return (
     <div className={styles.page}>
-      <header className={styles.header}>
-        <p>#Папкарм</p>
-      </header>
+      {header()}
       <main className={styles.main}>
-        <div className={styles.info}>
-        <div className={styles.text}>
-        <p>Занимайся</p>
-        <p>армреслингом</p>
-        <p>вместе с нами!</p>
-        </div>
-        </div>
-        <div className={styles.shapes}>
-          <div className={styles.square}></div>
-          <div className={styles.circle}></div>
-          <div className={styles.rhomb}></div>
-        </div>
-        <div className={styles.whyarm}>Почему армреслинг?</div>
-        <ul>
-          <li>ff</li>
-          <li>sfsf</li>
-          <li>ff</li>
-          <li>sfsf</li>
-          <li>ff</li>
-          <li>sfsf</li>
-          <li>ff</li>
-          <li>sfsf</li>
-        </ul>
-        <footer className={styles.footer}>
-      <ul>
-          <li>ff</li>
-          <li>sfsf</li>
-          <li>ff</li>
-          <li>sfsf</li>
-          <li>ff</li>
-          <li>sfsf</li>
-          <li>ff</li>
-          <li>sfsf</li>
-        </ul>
-        С вами был папкаартемка приходите еще!!
-      </footer>
+        {info()}
+        {whyarm()}
+        {shapes()}
+        {footer()}
       </main>
     </div>
   );
