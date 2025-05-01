@@ -1,35 +1,40 @@
 .shapes {
   position: relative;
-  width: 100vw;
+  display: flexbox;
+  margin: auto;
+  width: min-content;
   height: max-content;
-  margin-left: 11%;
+  padding-left: 25px;
+
   margin-bottom: 15vh;
   margin-top: 15vh;
 }
 
 .shapes .square {
-  width: 45vw;
-  height: 45vw;
+  width: 180px;
+  height: 180px;
+  transform: rotate(-15deg);
+
   background-image: url(/square.jpg);
   background-size: cover;
-  transform: rotate(-15deg);
 }
 
 .shapes .rhomb {
-  width: 45vw;
-  height: 45vw;
-  margin-top: 10vw;
-  margin-left: 5vw;
+  width: 180px;
+  height: 180px;
   transform: rotate(20deg);
+  margin-top: -10px;
+
   background-image: url(/rhomb.jpg);
   background-size: cover;
 }
 
 .shapes .circle {
-  margin-top: 5vw;
-  margin-left: 19vw;
-  width: 60vw;
-  height: 60vw;
+  width: 220px;
+  height: 220px;
+  margin-left: 100px;
+  margin-top: -10px;
+
   background-image: url(/circle.jpg);
   background-size: cover;
   border-radius: 50%;
