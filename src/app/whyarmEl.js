@@ -1,4 +1,5 @@
 import styles from "./whyarm.module.css";
+import scene from "./components/Scene.jsx"
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
               <p>Первые успехи приходят быстрее, чем в некоторых других видах спорта, мотивируя продолжать тренировки дальше</p>
             </li>
           </ul>
+          {scene()}
         </div>
   );
 }

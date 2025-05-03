@@ -1,3 +1,4 @@
+'use client';
 import styles from "./page.module.css";
 import info from "./infoEl.js"
 import header from "./headerEl.js"
