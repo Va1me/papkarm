@@ -1,20 +1,56 @@
 .info {
   position: relative;
   display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
   width: 100vw;
-  height: 90vh;
-
-  background-image: url(/infoImg.jpg);
-  background-size: cover;
-
-  text-align: center;
-  color: white;
-  font-size: 50px;
-  font-family: ‘Trocchi’, serif;
-  font-weight: bolder;
 }
 
-.info .text {
-  backdrop-filter: blur(2px);
-  margin: auto;
+.info p{
+  position: absolute;
+  z-index: 100;
+  width: 100vw;
+  margin-top: 11lvw;
+  margin-left: 10px;
+  height: min-content;
+
+  font-size: 45px;
+  text-shadow: 3px 5px 2px #474747;
+  color: white;
+}
+.info .img1{
+  width: 140%;
+}
+.info .img2Container{
+  position: relative;
+  margin-top: 10lvw;
+  width: 90lvw;
+}
+.info .img2Container .img2{
+  width: 100%;
+  border-radius: 10px;
+}
+.info .img2Container .buttonContainer{
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  bottom: 0;
+  width: 100%;
+  padding: 5px;
+  padding-bottom: 15px;
+}
+.info .img2Container .buttonContainer button{
+  border: 0;
+  background-color: white;
+  width: 40lvw;
+  margin: 3px;
+  padding: 6px;
+  border-radius: 6px;
+
+  font-size: 100%;
+  font-family: 'Arial black';
+}
+.info .img2Container .buttonContainer .button1{
+  background-color: rgb(17, 112, 221);
+  color: white;
 }

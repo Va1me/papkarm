@@ -4,7 +4,7 @@ import info from "./infoEl.js"
 import header from "./headerEl.js"
 import whyarm from "./whyarmEl.js"
 import footer from "./footerEl.js"
-import shapes from "./shapesEl.js"
+import shapes from "./shapesEl.js"  
 
 export default function Home() {
   return (
