@@ -1,19 +1,47 @@
 .whyarm h1 {
-  font-size: 50px;
-  margin-bottom: 3vh;
-  margin-top: 10vh;
+  font-size: 40px;
   text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  line-height: 180px;
+  text-shadow: 0 10px 7px rgba(0,0,0,0.4),0 -10px 1px #fff;
+  letter-spacing: -3px;
+
+  margin-bottom: -50px;
+
+  animation: glitch 13s linear infinite;
 }
 
 .whyarm ul {
-  font-size: 30px;
+  font-size: 25px;
   margin-left: 10vw;
 }
 
-.whyarm ul li h1 {
-  font-size: 5vw;
+.whyarm ul li{
+  margin-right: 25px;
+  margin-top: 3vh;
+  padding: 9px;
+  background-color: rgb(240, 239, 239);
+  border-radius: 10px;
 }
 
-.whyarm ul li{
-  margin-top: 3vh;
+@keyframes glitch {
+  0% {
+    transform: translate(0);
+  }
+  20% {
+    transform: translate(3px, 25px);
+  }
+  40% {
+    transform: translate(6px, 10px);
+  }
+  60% {
+    transform: translate(-3px, -10px);
+  }
+  80% {
+    transform: translate(3px, -25px);
+  }
+  100% {
+    transform: translate(0);
+  }
 }

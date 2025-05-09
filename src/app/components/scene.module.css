@@ -1,7 +1,30 @@
 .canvas{
-    height: 85vw;
-    width: 85vw;
+    height: 100vw;
+    width: 100vw;
     margin: auto;
-    border: 1vw solid black;
     margin-top: 10vw;
+}
+.canvas input{
+    width: 80vw;
+    margin: 0 10vw 0 10vw;
+
+    -webkit-appearance: none !important;
+    background:rgb(3, 75, 230);
+    height:20px;
+    border-radius: 9px;
+
+    -webkit-box-shadow: 9px 8px 9px 1px rgba(34, 60, 80, 0.62);
+    -moz-box-shadow: 9px 8px 9px 1px rgba(34, 60, 80, 0.62);
+    box-shadow: 9px 8px 9px 1px rgba(34, 60, 80, 0.62);
+}
+.canvas input[type='range']::-webkit-slider-thumb {
+    -webkit-appearance: none !important;
+    background:rgb(223, 35, 35);
+    height:40px;
+    width:40px;
+    border-radius: 50%;
+
+    -webkit-box-shadow: 9px 8px 9px 1px rgba(34, 60, 80, 0.62);
+    -moz-box-shadow: 9px 8px 9px 1px rgba(34, 60, 80, 0.62);
+    box-shadow: 9px 8px 9px 1px rgba(34, 60, 80, 0.62);
 }

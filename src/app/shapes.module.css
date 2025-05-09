@@ -17,6 +17,7 @@
 
   background-image: url(/square.jpg);
   background-size: cover;
+  border: 10px solid rgb(231, 229, 229);
 }
 
 .shapes .rhomb {
@@ -27,6 +28,7 @@
 
   background-image: url(/rhomb.jpg);
   background-size: cover;
+  border: 10px solid rgb(231, 229, 229);
 }
 
 .shapes .circle {
@@ -38,4 +40,5 @@
   background-image: url(/circle.jpg);
   background-size: cover;
   border-radius: 50%;
+  border: 11px solid rgb(231, 229, 229);
 }
